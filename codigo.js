@@ -1,4 +1,5 @@
 var x=1;
+
         var hola='Hola'
         document.getElementById("btnCalcular").addEventListener('click',function(){
             var xxx=document.getElementById("txtNombre");
@@ -11,11 +12,13 @@ var x=1;
                 document.getElementById("miText").innerHTML = "Bienvenido"+xxx.value;
                 xxx.value="";
             }
+
         });
         document.getElementById("txtNombre").addEventListener('keyup',function(){
             var xxx=document.getElementById("txtNombre");
             document.getElementById("miText").innerHTML = "Bienvenido"+xxx.value;
         });
+
         function miFuncion(){
             var todo="";
             for(var y=0;y<x;y++){
@@ -23,4 +26,5 @@ var x=1;
             }
             document.getElementById("miText").innerHTML=todo;
             x++;
+        
         }
