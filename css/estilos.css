@@ -6,6 +6,9 @@ body{
     background-color: #4d4d4d;
 }
 #login{
+    align-items: center;
+    text-align: center;
+    display: block;
     background-color: white;
     width: 400px;
     height: 400px;
@@ -28,6 +31,7 @@ body{
     color: #4d4d4d;
     outline-color: none;
     background-color: #eeeeee;
+    text-align: center;
     
 }
 #login button{
@@ -40,6 +44,7 @@ body{
     border-radius: 10px;
     display: block;
     margin-top: 20px;
+    margin-left: 125px;
 }
 .alerta{
     background-color: red;
@@ -92,6 +97,16 @@ body{
     padding-top: 30px;
     text-align: center;
 }
-
-
-
+#puntaje{
+    background-color: black;
+    padding: 10px;
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+    color: blanchedalmond;
+}
